@@ -1,0 +1,485 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.index-section{
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}                
+.left-gradient{
+    width: 60%;
+}
+.left-gradient img{
+    width: -webkit-fill-available;
+    height: 100%;
+
+}
+.form{
+    width: 40%;
+    overflow: auto;
+}
+.form h1{
+    margin: 11% 0;
+    text-align: center;
+    font-weight: bold;
+    font-family: math;
+    font-size: 4vw;
+}
+.form form{
+    margin: 0 27%;
+}
+.form-input{
+    padding: 5%;
+    border: 0.2vw solid #00d2ff;
+    margin: 3vw 0;
+}
+.form-input span{
+    background: white;
+    top: -1vw;
+    left: 1vw;
+    color: #00d2ff;
+    letter-spacing: 0.25vw;
+}
+.form-input input{
+    border: none;
+    outline: none;
+}
+.form-input select{
+    border: none;
+    outline: none;
+    width: 100%;
+    cursor: pointer;
+}
+.form-input i{
+    color: #00d2ff;
+    cursor: pointer;
+}
+.create-next{
+    margin-bottom: 3vw;
+}
+.create-next a:first-child{
+    text-decoration: none ;
+    color: #00d2ff;
+    font-weight: bold;
+    margin-right: 1vw;
+}
+.create-next a:last-child{
+    background-color: #00d2ff;
+    padding: 0.5vw 2vw;
+    border-radius: 0.5vw;
+    font-weight: bold;
+    margin-left: 1vw;
+}
+.submit-button{
+    margin: 3vw 0;
+}
+.submit-button button{
+    background-color: #00d2ff;
+    padding: 0.5vw 2vw;
+    border-radius: 0.5vw;
+    font-weight: bold;
+    border: none;
+}
+
+/*upper-nav styling*/
+.upper-nav{
+    padding: 1vw;
+    background: #efeded7a;
+}
+.search-cont{
+    border: 0.2vw solid #00d2ff;
+    padding: 0.5vw 2vw;
+    border-radius: 2vw;
+    background: #dddada;
+}
+.search-cont input{
+    border: none;
+    width: 38vw;
+    outline: none;
+    background: #dddada;
+}
+.search-table{
+    background: white;
+    width: 50%;
+    bottom: -3vw;
+    border: 1px solid #00000054;
+    z-index: 1000;
+    box-shadow: 0 0 6px 1px black;
+}
+.logo h1{
+    font-weight: bold;
+    font-family: math;
+    letter-spacing: 0.5vw;
+}
+.profile-in span{
+    font-size: 2vw;
+    padding: 1.5vw;
+    font-weight: bold;
+    font-family: math;
+    color: #0070ff;
+}
+.profile-in i{
+    font-size: 2vw;
+    padding: 1vw;
+    cursor: pointer;
+}
+.profile-info{
+    right: 0;
+    width: 25vw;
+    height: 25vw;
+    background: white;
+    box-shadow: 0px 0px 4px 2px #00000066;
+    z-index: 101;
+    top: 0;
+}
+.profile-info i{
+    font-size: 1.5vw;
+    right: 0;
+    color: red;
+}
+.profile-email{
+    font-family: auto;
+}
+.profile-email span{
+    color: black;
+    font-size: 1.5vw;
+}
+.profile-icon span{
+    border-radius: 50%;
+    background: #00d2ff;
+    color: black;
+}
+.profile-logout a{
+    text-decoration: none;
+    font-size: 1vw;
+    color: black;
+    background: #00d2ff;
+    padding: 1vw;
+    border-radius: 1vw;
+    font-weight: bold;
+}
+
+/*side-nav styling*/
+.side-nav{
+    width: fit-content;
+    height: 100%;
+    background: #efeded7a;
+}
+.compose{
+    background: #00d2ff;
+    margin: 2vw;
+    padding: 0.5vw;
+    border-radius: 2vw;
+    cursor: pointer;
+}
+.compose span{
+    padding: 0 1vw;
+}
+.compose a{
+    text-decoration: none;
+    color: black;
+    padding: 0vw 1vw;
+}
+.compose i{
+    padding: 0.5vw;
+}
+.side-menu span{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 0.2vw;
+    font-size: 1.5vw;
+    margin: 1vw 1vw;
+    background: #dddada;
+    border-radius: 1vw;
+    cursor: pointer;
+}
+
+/*inbox-styling*/
+.inbox-body{
+    background: #efeded7a;
+}
+.inbox-content{
+    width: 100%;
+    height: 100%;
+}
+.content{
+    width: 100%;
+    background: #efeded7a;
+}
+.mail-content{
+    width: 98%;
+    height: 96%;
+    background: white;
+    z-index: 100;
+    border-radius: 4vw;
+}
+.mail-content img{
+    width: 10vw;
+}
+.no-mail-img{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+.content-count{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+}
+.mail-count{
+    font-weight: bold;
+    font-family: monospace;
+    display: block;
+    text-align: center;
+    padding: 1vw 0;
+    border-bottom: 0.1vw solid #0000004f;
+}
+
+/*compose styling*/
+.compose-overlay{
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1002;
+    display: none;
+}
+.compose-page{
+    width: 100%;
+    height: 100%;
+    background: #80808069;
+}
+.compose-page form{
+    width: 32vw;
+    box-shadow: 0px 0px 20px 4px black;
+    background: white;
+}
+.compose-head{
+    padding: 1vw;
+    background: #dbd8d8;
+}
+.compose-head span{
+    font-weight: bold;
+    color: #0070ff;
+}
+.compose-head i{
+    font-size: 2vw;
+    color: red;
+    cursor: pointer;
+}
+.compose-to-sub{
+    padding: 0.5vw;
+    border-bottom: 0.1vw solid #0000004f;
+}
+.compose-to-sub span{
+    font-weight: bold;
+}
+.compose-to-sub input{
+    width: 80%;
+    outline: none;
+    border: none;
+}
+.compose-message textarea{
+    width: 100%;
+    resize: none;
+    padding: 1vw;
+    outline: none;
+    border: none;
+}
+.compose-buttons{
+    padding: 1vw;
+    background: #dbd8d8;
+}
+.compose-buttons a{
+    text-decoration: none;
+    color: #0070ff;
+    font-weight: bold;
+}
+.compose-buttons button{
+    background: #00d2ff;
+    padding: 0.5vw 1vw;
+    border: none;
+    border-radius: 0.5vw;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/*styling for failure message*/
+.send-failure{
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background: #80808069;
+    z-index: 1002;
+}
+.failure-message{
+    width: 30%;
+    background: white;
+    box-shadow: 0px 0px 20px 4px black;
+}
+.failure-message i{
+    text-align: right;
+    padding-right: 1vw;
+    color: red;
+    cursor: pointer;
+}
+.failure-message span{
+    padding: 2vw;
+    padding-bottom: 4vw;
+    font-weight: bold;
+    color: #0070ff;
+}
+/*inbox, sent, draft styling*/
+.sent-mails{
+    overflow: auto;
+}
+.sent-mails span{
+    padding: 1vw;
+}
+.draft-mails{
+    overflow: auto;
+}
+.draft-mails span{
+    padding: 1vw;
+}
+.inbox-mails{
+    overflow: auto;
+}
+.inbox-mails span{
+    padding: 1vw;
+}
+.message{
+    margin: 1vw;
+    background: #efeded7a;
+    border-radius: 1vw;
+}
+.message button{
+    width: 100%;
+    outline: none;
+    border: none;
+    background: none;
+    border-radius: 0.5vw;
+    font-weight: bold;
+}
+
+.message-name{
+    font-weight: bold;
+    color: #0070ff;
+}
+.message-head{
+    font-weight: 500;
+    font-family: sans-serif;
+    letter-spacing: 0.2vw;
+}
+.message-date{
+    font-weight: 500;
+    font-family: sans-serif;
+    letter-spacing: 0.2vw;
+}
+.draft-view{
+    font-weight: 500;
+    font-family: sans-serif;
+    letter-spacing: 0.2vw;
+    padding: 1vw;
+    top: 0;   
+}
+
+/*Inbox mail styling*/
+.mail-page{
+    height: 100vh;
+    z-index: 1003;
+    width: 100%;
+}
+.mail-upper{
+    padding: 2vw;
+    background: #dddadab0;
+    box-shadow: 0px 1px 6px 0px black;
+}
+.name span:first-child{
+    font-weight: bold;
+    letter-spacing: 0.3vw;
+    font-size: 2vw;
+    color: #0070ff;
+    font-family: auto;
+}
+.name span:last-child{
+    text-align: center;
+    font-family: cursive;
+}
+.send-date span{
+    font-weight: bold;
+    letter-spacing: 0.3vw;
+    font-size: 1.5vw;
+    color: #0070ff;
+    font-family: auto;
+}
+.mail-subject{
+    padding: 1vw;
+}
+.mail-message{
+    height: 100%;
+    overflow: auto;
+    padding: 2vw;
+}
+.mail-close{
+    bottom: 0;
+    width: 100%;
+    padding: 1vw;
+    background: #dddadab0;
+    box-shadow: 1px 0px 6px 0px black;
+}
+
+/*mail page styling */
+.mail-page-body{
+    width: 100%;
+    height: 100vh;
+}
+.mail-cover{
+    background: #efeded7a;
+    padding: 2vw;
+}
+.mail-sub{
+    overflow: hidden;
+}
+.mail-sub h3{
+    color:#0070ff;
+    margin: 0;
+}
+.mailer span:first-child{
+    color:#00d2ff;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+.mailer span:last-child{
+    text-align: center;
+    font-weight: bold;
+}
+.to-text{
+    font-size: 1vw;
+    color: black;
+    font-weight: 100;
+}
+.mail-page-mid{
+    width: 100%;
+    height: 100%;
+}
+.mail-req-buttons button{
+    border: none;
+    border-radius: 0.5vw;
+    background: #0070ff;
+    color: white;
+    padding: 0.5vw 1vw;
+    margin: 0 1vw;
+}
+.mail-forward{
+    padding: 0 1vw;
+    cursor: pointer;
+}

@@ -1,0 +1,37 @@
+<web-app>
+    <servlet>
+        <servlet-name>mailLogin</servlet-name>
+        <servlet-class>controllerPack.LoginServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>mailLogin</servlet-name>
+        <url-pattern>/login</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>mailLogout</servlet-name>
+        <servlet-class>controllerPack.LogoutServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>mailLogout</servlet-name>
+        <url-pattern>/logout</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>sendMail</servlet-name>
+        <servlet-class>controllerPack.SendMailServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>sendMail</servlet-name>
+        <url-pattern>/send</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>searchSuggest</servlet-name>
+        <servlet-class>ajaxController.SearchSuggestionsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>searchSuggest</servlet-name>
+        <url-pattern>/search</url-pattern>
+    </servlet-mapping>
+</web-app>
